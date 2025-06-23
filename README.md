@@ -1,4 +1,4 @@
-# 🛡️ User Authentication App with PostgreSQL & Express
+# web acada simple auth
 
 A full-stack Node.js web application featuring **user registration**, **login**, **username updates**, and **logout** using **PostgreSQL**, **Express**, **Bootstrap**, and **EJS** templating.
 
@@ -30,6 +30,7 @@ A full-stack Node.js web application featuring **user registration**, **login**,
 ---
 
 ## Db setup
+```
 CREATE TABLE users (
   id SERIAL PRIMARY KEY,
   username VARCHAR(50) NOT NULL UNIQUE,
@@ -37,7 +38,7 @@ CREATE TABLE users (
   full_name VARCHAR(100),
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
+```
 ---
 
 
