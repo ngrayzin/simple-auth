@@ -1,6 +1,6 @@
 # web acada simple auth
 
-A full-stack Node.js web application featuring **user registration**, **login**, **username updates**, and **logout** using **PostgreSQL**, **Express**, **Bootstrap**, and **EJS** templating.
+A full-stack Node.js web application featuring **user registration**, **login**, **username updates**, and **logout** using **PostgreSQL** **supabase db**, **Express**, **Bootstrap**, and **EJS** templating.
 
 ---
 
